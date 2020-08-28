@@ -10,6 +10,6 @@ echo PHP_INT_MAX . "\n"; // 9223372036854775807
  * As of PHP 7.4.0, integer literals may contain underscores (_) between digits, for better readability of literals.
  * These underscores are removed by PHP's scanner.
  */
-$a = 1_234_567; // decimal number (as of PHP 7.4.0)
-
-echo $a;
+$a = 1_321_234_567; // decimal number (as of PHP 7.4.0)
+echo $a . "\n";
+echo PHP_INT_SIZE;
