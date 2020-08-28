@@ -12,3 +12,9 @@ if ($difference < $epsilon) {
 } else {
     echo "Those values are different";
 }
+
+/**
+    This code is checking if the values are the same to five degrees of precision. This
+    script will output Those values are different because the difference is greater than
+    the degree of error that we defined.
+ */
